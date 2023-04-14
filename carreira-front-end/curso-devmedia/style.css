@@ -37,9 +37,11 @@ p {
 blockquote {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 8px;
-    color: white;
+    font-size: 18px;
+    color: rgb(235, 220, 11);
     background: #000;
+    box-sizing: border-box;
+    border-bottom-right-radius: 15px;
 }
 
 .container {
@@ -99,4 +101,11 @@ blockquote {
 
 .current-item {
     opacity: 1;
+}
+
+.texto-destaque-vermelho{
+    color: red;
+    font-style: oblique;
+    font-family: Georgia;
+    text-decoration: underline;
 }
